@@ -6,14 +6,14 @@
 }
 
 body {
-  background: #a9adaf;
-  font-family: 'Times New Roman', Times, serif;
-  color: #111;
+  background: #1d141a;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#f3e8ef;
   padding: 16px;
 }
 
 nav {
-  background: #eacce0;
+  background: #3a2634;
   border-radius: 999px;
   padding: 16px 28px;
 }
@@ -26,26 +26,32 @@ nav ul {
 }
 
 nav a {
-  color: #111;
+  color: #f3e8ef;
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #6b354e;
+list-style: none;
+border-radius: 16px;
 }
 
 .content {
   text-align: center;
   margin: 40px auto 60px;
+  border: solid rgb(95, 10, 91);
+  background-color: #551048;
+  border-radius: 999px;
 }
 
 .content h1 {
   font-size: 45px;
   font-weight: 400;
-  color:#8d0b77
+  color:#e48ad3;
 }
 
 
@@ -59,7 +65,7 @@ nav a:hover {
 
 
 .produto {
-  background: #e6e8e8;
+  background: #783c72;
   border-radius: 28px;
   overflow: hidden;
   box-shadow: 6px 10px 18px rgba(0, 0, 0, 0.35);
@@ -95,45 +101,54 @@ nav a:hover {
 
 .sobre{
     border-radius:  10px;;
-    border: solid #ddb9d7;
-     background-color: #e0cadc;
+    border: solid #4d3345;
+     background-color:#2a1d26;
     margin-bottom: 40px;
     padding: auto;
 }
 .sobre2{
     border-radius:  10px;;
-    border: solid #d4bad0;
-     background-color: #e0cadc;
+    border: solid #4d3345;
+     background-color:#2a1d26;
     margin-bottom: 40px;
     padding: auto;
 }
  
 .sobre p{
     font-size: 25px;
-    margin-top: 20px;;
+     padding: 20px 24px;
     
 }
 .sobre2 p{
     font-size: 25px;
     margin-top: 20px;
+     padding: 20px 24px;
     
     
 }
 
 .sobre2 ul{
     font-size: 25px;
-    margin-top: 20px;
+     padding: 20px 24px;
     
 }
 
 .content2 {
     border-radius:  10px;;
-    border: solid #cd92c3;
-     background-color: #e0cadc;
-    margin-bottom: 40px;
-    padding: auto;
+    border: solid #4d3345 ;
+     background-color: #2a1d26;
+    padding: 20px 24px;
     font-size: 20px;
+   
 
 
 }
-
+footer {
+  text-align: center;
+  color: #6b5a66;
+  font-size: 0.85rem;
+  padding: 24px 16px 32px;
+  border-top: 1px solid #e3c4d7;
+  max-width: 860px;
+  margin: 0 auto;
+}
